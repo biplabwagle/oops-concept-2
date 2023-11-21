@@ -12,6 +12,8 @@ public class HeadPhone {
     private int batteryLevel;
     private int volumeLevel;
     private double weight;
+    private boolean hasTouchControls; //if false defaults to button controls
+    private int listeningHours;
 
     //Accessors and Mutators
 
