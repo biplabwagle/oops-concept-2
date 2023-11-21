@@ -14,6 +14,7 @@ public class Medicine {
     private String storageInstructions; // cold place, dark place?
     private int quantity; //how many pills, milliliters if in liquid form
 
+    private boolean requiresPrescription;
     //Accessors and Mutators
 
     //Behaviors/ Methods
