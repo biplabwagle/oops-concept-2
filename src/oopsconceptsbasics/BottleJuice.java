@@ -2,16 +2,25 @@ package oopsconceptsbasics;
 
 public class BottleJuice {
     //State
-    String name;
-    String ingredients;
-    String vitaminAndMinerals;
+    private String name;
+    private String ingredients;
+    private String vitaminAndMinerals;
+    private boolean hasAntiOxidants;
 
-    int servingsPerContainer;
-    int calories;
-    int sugarContent;
-    int totalCarbohydrates;
-    int dietaryFibre;
-    int sodium;
-    int fat;
+
+    private int servingsPerContainer;
+    private int calories;
+    private int sugarContent;
+    private int totalCarbohydrates;
+    private int totalProtein;
+    private int dietaryFibre;
+    private int sodium;
+    private int fat;
+
+
+    //Accessors and Mutators
+
     //Behaviors
+
+
 }
