@@ -1,13 +1,13 @@
 package oopsconceptsbasics;
 
+import java.time.LocalDate;
+
 public class BottleJuice {
     //State
     private String name;
     private String ingredients;
     private String vitaminAndMinerals;
     private boolean hasAntiOxidants;
-
-
     private int servingsPerContainer;
     private int calories;
     private int sugarContent;
@@ -16,7 +16,7 @@ public class BottleJuice {
     private int dietaryFibre;
     private int sodium;
     private int fat;
-
+    private LocalDate manufactureDate;
 
     //Accessors and Mutators
 
