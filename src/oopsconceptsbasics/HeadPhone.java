@@ -1,6 +1,6 @@
 package oopsconceptsbasics;
 
-public class Headphones {
+public class HeadPhone {
     //State
     private String brand;
     private String model;
