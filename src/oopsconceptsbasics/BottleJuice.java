@@ -143,12 +143,11 @@ public class BottleJuice {
 
     //Behaviors
     public String printInfo(){
-        String pInfo = String.format("Name: %s \nCalories: %d \nFat: %dgm\n" +
+        return String.format("Name: %s \nCalories: %d \nFat: %dgm\n" +
                         "Manufacture Date: %s \nExpiry Date: %s \n" +
                         "Dietary Fibre: %sgm \nDisclaimers: %s"
                 , getName(), getCalories(), getFat(), getManufactureDate(),
                 getExpiryDate(), getDietaryFibre(), getDisclaimers());
-        return pInfo;
     }
 
 }
